@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav__center">
+        <div class="nav__header">
+          <a href="" class="nav__logo">
+            <img src="./assets/logo.svg" alt="logo" />
+          </a>
+          <button class="btn nav__btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav__links">
+          <a href="index.html" class="nav__link">home</a>
+          <a href="about.html" class="nav__link">about</a>
+          <a href="tags.html" class="nav__link">tags</a>
+          <a href="recipes.html" class="nav__link">recipes</a>
+          <div class="nav__link contact__link">
+            <a href="contact.html" class="btn">contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="page">
+      <section class="featured__recipes">
+        <section class="contact__container">
+          <article class="contact__info">
+            <h3>What to get in touch?</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit
+              impedit vel itaque eaque deleniti aliquam nihil consequuntur
+              doloremque. Ad sapiente voluptatibus quae reiciendis saepe illo
+              eos iste tenetur laborum maxime!
+            </p>
+          </article>
+          <article>
+            <form class="form contact__form">
+              <div class="form-row">
+                <label for="name" class="form__label">Your Name</label>
+                <input type="text" name="name" id="name" class="form-input" />
+              </div>
+              <div class="form-row">
+                <label for="email" class="form__label">Your Email</label>
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  class="form-input"
+                />
+              </div>
+              <div class="form-row">
+                <label for="message" class="form__label">Message</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  class="form-textarea"
+                ></textarea>
+              </div>
+              <a href="contact.html" class="btn">Submit</a>
+            </form>
+          </article>
+        </section>
+        <h5 class="featured__title">Look At this Awesomesouce!</h5>
+        <div class="recipes__list">
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-1.jpeg"
+              alt="food"
+              class="img recipe__img"
+            />
+            <h5>carne asada</h5>
+            <p>prep: 15min | cook: 5min</p>
+          </a>
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-2.jpeg"
+              alt="food"
+              class="img recipe__img"
+            />
+            <h5>greek rips</h5>
+            <p>prep: 15min | cook: 5min</p>
+          </a>
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-3.jpeg"
+              alt="food"
+              class="img recipe__img"
+            />
+            <h5>vegetable soup</h5>
+            <p>prep: 15min | cook: 5min</p>
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer class="page__footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer__logo">SimpleRecipes</span>
+        Built by <a href="https://www.johnsmilga.com/projects">Coding Addict</a>
+      </p>
+    </footer>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
